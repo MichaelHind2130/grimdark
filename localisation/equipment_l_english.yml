@@ -3437,11 +3437,8 @@
  IPG_infantry_equipment_1:0 "Lasguns"
  IPG_infantry_equipment_1_short:0 "Lasguns"
 
-
- necron_scarab:0 "Necron Scarab"
- necron_scarab_short:0 "Necron Scarab"
  necron_scarab_desc:0 "Small Canoptek units but don't assume these units strength for in swarms they have the ability to rip apart anything"
  necron_scarab_1:0 "Necron Scarab"
  necron_scarab_short_1:0 "Necron Scarab"
- necron_scarab_desc_1:0 "Small Canoptek units but don't assume these units strength for in swarms they have the ability to rip apart anything"
+ 
  
