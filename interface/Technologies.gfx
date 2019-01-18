@@ -4152,7 +4152,7 @@ spriteTypes = {
    ##########################################################
 
    SpriteType = {
-		name = "GFX_NCN_necron_scarab_medium"
+		name = "GFX_necron_scarab_medium"
 		texturefile = "gfx/interface/technologies/NCN_necron_scarab.dds"
 	}
 
