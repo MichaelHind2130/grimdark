@@ -1,0 +1,160 @@
+division_template = {
+	name = "Chaos-Space-Marines"
+
+	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		motorized = { x = 1 y = 4 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+		infantry = { x = 2 y = 4 }
+		motorized = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		motorized = { x = 3 y = 3 }
+		infantry = { x = 3 y = 4 }
+
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+
+division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 4003
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 12182
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+
+division= {	
+		
+		name = "Chaos Space Marines"
+		location = 12182
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 12182
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 12182
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 12182
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		
+		name = "Chaos Space Marines"
+		location = 12182
+		division_template = "Chaos-Space-Marines"
+		start_experience_factor = 0.3
+	}
+
+
+}

@@ -1,0 +1,29 @@
+technologies = {
+
+	ncn_phase_one = {
+		
+		enable_equipments = {
+			necron_scarab
+			
+		}
+		enable_subunits = {
+			necron_scarabs
+		}
+	
+		research_cost = 1.5
+		start_year = 1940
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			infantry_weapons
+			
+			
+		}
+	}
+		
+
+}
+

@@ -1,0 +1,75 @@
+capital = 15
+
+OOB = "IPG_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+
+}
+set_stability = 1.00
+set_war_support = 1.00
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 20
+		}
+ 
+		fascism = {
+			popularity = 50 
+		}
+		
+		communism = {
+			popularity = 20
+		}
+		
+		neutrality = { 
+			popularity = 10
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 1000
+
+
+create_country_leader = {
+	name = "Imperial Commander"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "ImperialGuardLeader.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+ create_field_marshal = {
+	name = "Ogryn Brox"
+	portrait_path = "gfx/leaders/IPG/OgrynCommand.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 10
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Imperial Commisar"
+	portrait_path = "gfx/leaders/IPG/GC.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 10
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+

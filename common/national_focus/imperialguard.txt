@@ -1,0 +1,204 @@
+focus_tree = {
+	id = imperial_guard_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = IPG
+		}
+	}
+
+	focus = {
+		id = IPG_reconstruction
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = IPG_reconstruction
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			#add_ideas = schacht
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = hjalmar_schacht
+		}
+	}
+
+
+focus = {
+		id = IPG_army_regrouping_1
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = IPG_reconstruction }
+		x = 5
+		y = 1
+		relative_position_id = IPG_reconstruction
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+			
+		completion_reward = {
+		add_manpower = 1000000
+			
+	}
+
+    }
+	focus = {
+		id = IPG_army_regrouping_2
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = IPG_army_regrouping_1 }
+		x = 1
+		y = 1
+		relative_position_id = IPG_army_regrouping_1
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+			
+		completion_reward = {
+		add_manpower = 1000000
+			
+	}
+    }
+
+	focus = {
+		id = IPG_army_regrouping_3
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = IPG_army_regrouping_2 }
+		x = 0
+		y = 1
+		relative_position_id = IPG_army_regrouping_2
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+			
+		completion_reward = {
+		add_manpower = 1000000
+			
+	}
+    }
+
+
+
+	focus = {
+		id = IPG_bunker_construct
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = IPG_reconstruction }
+		x = -5
+		y = 1
+		relative_position_id = IPG_reconstruction
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+			
+		completion_reward = {
+			#add_ideas = todt
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = todt
+			50 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					custom_effect_tooltip = GER_west_wall_forts
+					hidden_effect = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 5291
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 6583
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3493
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 6770
+							instant_build = yes
+						}
+					}
+				}
+			}
+			
+		}
+	}
+
+
+focus = {
+		id = IPG_political
+		icon = GFX_goal_generic_construction
+		x = 14
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+			add_political_power = 100
+			}
+			
+		}
+	
+
+focus = {
+		id = IPG_political_1
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = IPG_political }
+		x = 0
+		y = 1
+		relative_position_id = IPG_political
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+			
+		completion_reward = {
+		add_political_power = 150
+			
+	}
+   
+    }
+
+
+focus = {
+		id = IPG_political_2
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = IPG_political_1 }
+		x = 0
+		y = 1
+		relative_position_id = IPG_political_1
+		cost = 10
+		ai_will_do = {
+			factor = 8
+		}
+			
+		completion_reward = {
+		add_political_power = 200
+			
+	}
+    }
+
+
+}
+
+	
