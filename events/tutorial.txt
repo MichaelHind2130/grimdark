@@ -1,33 +1,33 @@
-add_namespace = tutorial
+#add_namespace = tutorial
 
-country_event = {
-	id = tutorial.1
-	title = tutorial.1.t
-	desc = tutorial.1.d
-	picture = GFX_news_event_chinese_soldiers_march
+#country_event = {
+#	id = tutorial.1
+#	title = tutorial.1.t
+#	desc = tutorial.1.d
+#	picture = GFX_news_event_chinese_soldiers_march
+#	
+#	is_triggered_only = no
+#	fire_only_once = yes
+#
+#	trigger = {
+#		tag = IPG
+#		AND = {
+#				date >1936.2.1
+#		}
+#	}
+#
+#	mean_time_to_happen = {days = 7}
 	
-	is_triggered_only = no
-	fire_only_once = yes
+#	option = { 
+#		name = Okay
+#		ai_chance = { factor = 100 }
+#		declare_war_on = {
 
-	trigger = {
-		tag = IPG
-		AND = {
-				date >1936.2.1
-		}
-	}
+#		target = ORK
+#		type = annex_everything
 
-	mean_time_to_happen = {days = 7}
-	
-	option = { 
-		name = Okay
-		ai_chance = { factor = 100 }
-		declare_war_on = {
-
-		target = ORK
-		type = annex_everything
-
-		}
+#		}
 		
 		
-	}
-}
+#	}
+#}
