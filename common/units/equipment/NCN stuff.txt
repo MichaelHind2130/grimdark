@@ -45,7 +45,7 @@ equipments = {
 	
 
 		archetype = necron_scarab
-		active = yes 
+		active = no 
 		priority = 90
 		visual_level = 0
 	}
