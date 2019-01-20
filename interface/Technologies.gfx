@@ -4157,6 +4157,75 @@ spriteTypes = {
 	}
 
 
+
+
+
+SpriteType = {
+		name = "GFX_IPG_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_basic_main_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IPG_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_improved_main_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IPG_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_advanced_main_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IPG_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_IPG_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_improved_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_IPG_gwtank_medium"
+		texturefile = "gfx/interface/technologies/IPG_gw_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_IPG_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_basic_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_IPG_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_improved_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_IPG_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_advanced_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IPG_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_advanced_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_IPG_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_super_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_IPG_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/IPG_modern_tank.dds"
+	}
+	
+
+
+	
+
+
+
 	SpriteType = {
 		name = "GFX_IPG_advanced_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/IPG_advanced_infantry_weapons.dds"
