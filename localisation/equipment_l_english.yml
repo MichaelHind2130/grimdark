@@ -3431,7 +3431,7 @@
  USA_motorized_rocket_equipment_1_short:0 "Xylophone"
  
  ######################################################
-
+    #IMPERIAL
  IPG_gw_tank_equipment_short:0 "Malcador"
  IPG_light_tank_equipment_1:0 "Sentinel Scout Walker"
  IPG_light_tank_equipment_1_short:0 "Sentinel"
@@ -3468,8 +3468,25 @@
  IPG_mechanized_equipment_3:0 "Mars Pattern Razorback"
  IPG_mechanized_equipment_3_short:0 "Razorback"
 
+ 
+    #NECRONS
  necron_scarab_desc:0 "Small Canoptek units but don't assume these units strength for in swarms they have the ability to rip apart anything"
  necron_scarab_1:0 "Necron Scarab"
  necron_scarab_short_1:0 "Necron Scarab"
- 
- 
+  NCN_infantry_equipment_1:0 "Necron Gauss Rifle"
+  NCN_infantry_equipment_1_short:0 "Gauss Rifle"
+  NCN_infantry_equipment_2:0 "Necron Gauss Blaster"
+  NCN_infantry_equipment_2_short:0 "Gauss Blaster"
+  NCN_infantry_equipment_3:0 "Synaptic Disintegrator"
+  NCN_mechanized_equipment_1:0 "Necon Ghost Ark"
+  NCN_mechanized_equipment_1_short:0 "Ghost Ark"
+  
+  
+  
+ NCN_infantry_equipment_3_short:0 "Synaptic Disintegrator"
+ NCN_light_tank_equipment_1:0 "Canoptek Wraith"
+ NCN_light_tank_equipment_1_short:0 "Wraith"
+ NCN_light_tank_equipment_2:0 "Canoptek Spider"
+ NCN_light_tank_equipment_2_short:0 "Spider"
+ NCN_light_tank_equipment_3:0 "Canoptek Tomb Stalker"
+ NCN_light_tank_equipment_3_short:0 "Tomb Stalker"
