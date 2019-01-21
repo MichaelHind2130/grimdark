@@ -3432,6 +3432,7 @@
  
  ######################################################
     #IMPERIAL
+ IPG_gw_tank_equipment:0 "Malcador"
  IPG_gw_tank_equipment_short:0 "Malcador"
  IPG_light_tank_equipment_1:0 "Sentinel Scout Walker"
  IPG_light_tank_equipment_1_short:0 "Sentinel"
@@ -3478,15 +3479,15 @@
   NCN_infantry_equipment_2:0 "Necron Gauss Blaster"
   NCN_infantry_equipment_2_short:0 "Gauss Blaster"
   NCN_infantry_equipment_3:0 "Synaptic Disintegrator"
+   NCN_infantry_equipment_3_short:0 "Synaptic Disintegrator"
   NCN_mechanized_equipment_1:0 "Necon Ghost Ark"
   NCN_mechanized_equipment_1_short:0 "Ghost Ark"
   
-  
-  
- NCN_infantry_equipment_3_short:0 "Synaptic Disintegrator"
+ NCN_gw_tank_equipment:0 "Canoptek Spider"
+ NCN_gw_tank_equipment_short:0 "Spider"
  NCN_light_tank_equipment_1:0 "Canoptek Wraith"
  NCN_light_tank_equipment_1_short:0 "Wraith"
- NCN_light_tank_equipment_2:0 "Canoptek Spider"
- NCN_light_tank_equipment_2_short:0 "Spider"
+ NCN_light_tank_equipment_2:0 "Tomb Blades"
+ NCN_light_tank_equipment_2_short:0 "Tomb Blades"
  NCN_light_tank_equipment_3:0 "Canoptek Tomb Stalker"
  NCN_light_tank_equipment_3_short:0 "Tomb Stalker"

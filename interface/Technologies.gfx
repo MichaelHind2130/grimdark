@@ -4150,14 +4150,8 @@ spriteTypes = {
 
 
    ##########################################################
-
-   SpriteType = {
-		name = "GFX_necron_scarab_medium"
-		texturefile = "gfx/interface/technologies/NCN_necron_scarab.dds"
-	}
-
-
-
+   
+  	#Imeprial
 
 
 SpriteType = {
@@ -4219,12 +4213,6 @@ SpriteType = {
 		name = "GFX_IPG_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/IPG_modern_tank.dds"
 	}
-	
-
-
-	
-
-
 
 	SpriteType = {
 		name = "GFX_IPG_advanced_infantry_weapons_medium"
@@ -4259,14 +4247,55 @@ SpriteType = {
 
 
 
+		#Necrons
+
+SpriteType = {
+		name = "GFX_necron_scarab_medium"
+		texturefile = "gfx/interface/technologies/NCN_necron_scarab.dds"
+	}
 
 
+SpriteType = {
+		name = "GFX_NCN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NCN_infantry_weapons_1.dds"
+	}
 
 
+SpriteType = {
+		name = "GFX_NCN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NCN_improved_infantry_weapons.dds"
+	}	
+
+SpriteType = {
+		name = "GFX_NCN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NCN_advanced_infantry_weapons.dds"
+	}
+
+SpriteType = {
+		name = "GFX_NCN_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/NCN_mechanized_equipment_1.dds"
+	}		
+
+SpriteType = {
+		name = "GFX_NCN_gwtank_medium"
+		texturefile = "gfx/interface/technologies/NCN_gw_tank.dds"
+	}
 
 
+SpriteType = {
+		name = "GFX_NCN_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/NCN_basic_light_tank.dds"
+	}
 
+	SpriteType = {
+			name = "GFX_NCN_improved_light_tank_medium"
+			texturefile = "gfx/interface/technologies/NCN_improved_light_tank.dds"
 
+   }
 
+	SpriteType = {
+		name = "GFX_NCN_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/NCN_advanced_light_tank.dds"
+	}
 
 }
